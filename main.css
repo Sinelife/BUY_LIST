@@ -1,0 +1,164 @@
+body {
+	background-color: #DADADA;
+}
+
+
+h3{
+	margin: 6px;
+}
+
+
+button{	
+    box-shadow: 0 -3px 0 0 rgba(34,36,38,.15) inset;
+    border: 1px solid rgba(34,36,38,.15);
+	border-radius: 5px;
+	padding: 7px 11px 8.5px;
+	font-size: 10px; 
+}
+
+
+button.green-button{
+	border-radius: 50%;
+	background-color: #21BA45;
+	color: #fff;
+}
+
+button.red-button{
+	border-radius: 50%;
+	background-color: #ca1010;
+	color: #fff;
+}
+
+button.delete{
+	background-color: #ca1010;
+	color: #fff;
+}
+
+.delete{
+	margin-left: 2px;	
+}
+
+
+.page {
+	padding: 2.5%;
+}
+
+
+.inline {
+	display: inline-block;
+}
+
+
+.main-box{
+	width: 37%;
+	float: left;
+	padding-right: 1%;
+}
+
+
+.second-box{
+	width: 20%;
+	padding-left: 1%;
+}
+
+.part{
+	border: 1px solid rgba(34,36,38,.18);
+	padding: 10px;
+	background-color: #FFF;
+}
+
+.container{
+	width: 100%;
+	border: 1px solid rgba(34,36,38,.15);
+}
+
+
+.list{
+	display: inline-flex;
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+
+.container.no-border{
+	border: none;
+}
+
+
+input{
+    width: 100%;
+	border: 1px solid rgba(34,36,38,.15);
+	border-radius: 8px;
+    padding: 9px 14px;
+}
+
+.add-button{
+	float: right;
+	border: 1px solid rgba(34,36,38,.15);
+	border-radius: 5px;
+    padding: 11px 14px;
+	background-color: #2185D0;
+	color: #fff;
+    font-weight: bold;	
+}
+
+.name{
+    display: block;
+    overflow: hidden;
+}
+
+
+.label{
+	margin: 3px;
+	border: 0 solid transparent;
+	padding: 8px;
+	background-color: #E8E8E8;
+	font-size: 12px;
+	display: inline-block;
+
+}
+
+
+.product{
+	/*display: inline-block;/**/
+	float: left;
+	margin: auto;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+
+.product-name{
+	width: 25% !important;
+	align-items: left;
+	justify-content: left;
+	padding-left: 10px;
+}
+
+.cont {
+	min-height: 100px !important;
+}
+
+
+.green-red-buttons{
+	width: 80%;
+}
+
+.buy-del-buttons{
+	width: 30% ;
+}
+
+.mark{
+	border-radius: 50%;
+	background-color: #F2711C;
+	border-color: #F2711C;
+	color: #FFF;
+	padding: 1px;
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left: 4px;
+}
+
