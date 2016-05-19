@@ -7,7 +7,7 @@ h3{
 	margin: 6px;
 }
 
-
+/*class for button*/
 button{	
     box-shadow: 0 -3px 0 0 rgba(34,36,38,.15) inset;
     border: 1px solid rgba(34,36,38,.15);
@@ -17,62 +17,71 @@ button{
 }
 
 
+/*class for green-button*/
 button.green-button{
 	border-radius: 50%;
 	background-color: #21BA45;
 	color: #fff;
 }
 
+/*class for red-button*/
 button.red-button{
 	border-radius: 50%;
 	background-color: #ca1010;
 	color: #fff;
 }
 
+/*class for delete button*/
 button.delete{
 	background-color: #ca1010;
 	color: #fff;
 }
 
+/*class for delete button*/
 .delete{
 	margin-left: 2px;	
 }
 
 
+/*class for all page*/
 .page {
 	padding: 2.5%;
 }
 
 
+
+/*class for putting elements in one*/
 .inline {
 	display: inline-block;
 }
 
-
+/*class for main box*/
 .main-box{
 	width: 37%;
 	float: left;
 	padding-right: 1%;
 }
 
-
+/*class for second box*/
 .second-box{
 	width: 20%;
 	padding-left: 1%;
 }
 
+/*class for part of list*/
 .part{
 	border: 1px solid rgba(34,36,38,.18);
 	padding: 10px;
 	background-color: #FFF;
 }
 
+/*class for container border*/
 .container{
 	width: 100%;
 	border: 1px solid rgba(34,36,38,.15);
 }
 
-
+/*class for list of products*/
 .list{
 	display: inline-flex;
 	width: 100%;
@@ -80,12 +89,13 @@ button.delete{
 	padding-right: 0;
 }
 
-
+/*class for no border of form*/
 .container.no-border{
 	border: none;
 }
 
 
+/*class for input form*/
 input{
     width: 100%;
 	border: 1px solid rgba(34,36,38,.15);
@@ -93,6 +103,9 @@ input{
     padding: 9px 14px;
 }
 
+
+
+/*class for add button*/
 .add-button{
 	float: right;
 	border: 1px solid rgba(34,36,38,.15);
@@ -103,12 +116,22 @@ input{
     font-weight: bold;	
 }
 
+
+/*class for item name*/
 .name{
     display: block;
     overflow: hidden;
 }
 
 
+.item-name-field{
+    border-top-right-radius: 0;
+	border-bottom-right-radius: 0;
+	border-right-color: transparent;
+}
+
+
+/*class for text of number*/
 .label{
 	margin: 3px;
 	border: 0 solid transparent;
@@ -121,7 +144,6 @@ input{
 
 
 .product{
-	/*display: inline-block;/**/
 	float: left;
 	margin: auto;
 	width: 100%;
@@ -131,26 +153,38 @@ input{
 }
 
 
+/*class for product-name*/
 .product-name{
-	width: 25% !important;
+	width: 25%;
 	align-items: left;
 	justify-content: left;
 	padding-left: 10px;
 }
 
-.cont {
-	min-height: 100px !important;
-}
 
-
+/*class for green and red buttons*/
 .green-red-buttons{
 	width: 80%;
+	align-content: center;
 }
 
+
+/*class for bought and delete buttons*/
 .buy-del-buttons{
 	width: 30% ;
+	align-content: right;
 }
 
+
+
+/*class for unbuy buttons*/
+.unbuy-buttons{
+	width: 75%;
+	align-content: right;
+}
+
+
+/*class for mark with number in second-box*/
 .mark{
 	border-radius: 50%;
 	background-color: #F2711C;
@@ -161,4 +195,22 @@ input{
 	padding-right: 5px;
 	margin-left: 4px;
 }
+
+
+/*class which makes text crossed*/
+.strike {
+	text-decoration: line-through;
+}
+
+
+/*class for hiding buttons*/
+.hidden {
+	display: none;
+}
+
+
+
+
+
+
 

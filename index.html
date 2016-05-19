@@ -4,61 +4,49 @@
     <meta charset="UTF-8">
     <title>My Page</title>
     <link rel="stylesheet" type="text/css" href="main.css" />
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
 </head>
 <body>
 	<div class="page">
 		<div class="inline main-box">
-			<div class="form part">
-				<div class="container no-border">
-					<button class="add-button">Додати</button>
-					<span class="name"><input type="text" name="name" placeholder="Назва товару" /></span>
+			<div class="content-block container form-container">
+				<div class="form part">
+					<div class="container no-border">
+						<button class="add-button">Додати</button>
+						<span class="name"><input class="item-name-field" type="text" name="name" placeholder="Назва товару" /></span>
+					</div>
 				</div>
-			</div>
-			<div class="part list">
-				<div class="product-name product">Помідори</div>
-				<div class="green-red-buttons product">
-					<button class="red-button">-</button>
-					<span class="label">1</span>
-					<button class="green-button">+</button>
-				</div>
-				<div class="buy-del-buttons product">
-					<button class="buy">Куплено</button>
-					<button class="delete">х</button>
-				</div>	
-			</div>
-			<div class="part list">
-				<div class="product-name product">Печиво</div>
-				<div class="green-red-buttons product">
-					<button class="red-button">-</button>
-					<span class="label">1</span>
-					<button class="green-button">+</button>
-				</div>
-				<div class="buy-del-buttons product">
-					<button class="buy">Куплено</button>
-					<button class="delete">х</button>
-				</div>	
-			</div>
-			<div class="part list">
-				<div class="product-name product">Сир</div>
-				<div class="green-red-buttons product">
-					<button class="red-button">-</button>
-					<span class="label">1</span>
-					<button class="green-button">+</button>
-				</div>
-				<div class="buy-del-buttons product">
-					<button class="buy">Куплено</button>
-					<button class="delete">х</button>
-				</div>	
 			</div>
 		</div>
 		<div class="inline second-box">
 			<div class="container">
 				<div class="part"><h3>Залишилося</h3></div>
-				<div class="part"><div class="label">Помідори <span class="mark">1</span></div><div class="label">Печиво<span class="mark">1</span></div><div class="label">Сир<span class="mark">1</span></div></div>
+				<div class="part items-left"></div>
 				<div class="part"><h3>Куплено</h3></div>
-				<div class="part"></div>
+				<div class="part items-bought"></div>
 			</div>	
 		</div>
+	</div>
+	<div style="display: none;" class="-item">	
+    	<div class="part list">
+			<div class="product-name product"></div>
+			<div class="green-red-buttons product">
+				<button class="red-button">-</button>
+				<span class="label">1</span>
+				<button class="green-button">+</button>
+			</div>
+			<div class="buy-del-buttons product">
+				<button class="bought">Куплено</button>
+				<button class="delete">х</button>
+			</div>
+			<div class="unbuy-buttons product hidden">
+				<button class="unbuy">Не куплено</button>
+			</div>	
+		</div>
+	</div>
+	<div style="display: none;" class="-label">
+		<div class="label"><span class="label-text"></span><span class="mark"></span></div>
 	</div>
 </body>
 </html>
